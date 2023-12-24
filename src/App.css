@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.editorBox {
+  margin-bottom: 2rem;
+
+}
+
+#editor {
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  resize: none;
+
+}
+
+#preview {
+  width: 100%;
+  height: 60vh;
+  padding: 5px;
+  overflow: auto;
+  background-color: #373737;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
